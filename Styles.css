@@ -1,0 +1,17 @@
+.contenedor{
+    background-color: beige;
+    padding: 7px;
+  
+    width: 100%;
+}
+#contenedortodos{
+    display: flex;
+    flex-direction: row;
+  
+
+}
+#contenedortodos *{
+    padding: 7px;
+
+}
+h2{background-color: rgb(243, 185, 162);}

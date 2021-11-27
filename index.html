@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <h1>MIS TAREAS</h1>
+    <input id="inputtarea" type="text" placeholder="Descripción de la tarea">
+    <button id="botontarea">Nueva tarea</button>
+    <div id="contenedortodos">
+
+
+        <div id="divtodo">
+            <h2>To do</h2>
+            <div id="Contenedortodo"></div>
+        </div>
+
+        <div id="divdoing">
+            <h2>Doing</h2>
+            <div id="Contenedordoing"></div>
+        </div>
+
+        <div id="divdone">
+            <h2>Done</h2>
+            <div id="Contenedordone"></div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+    var firebaseConfig = {
+        apiKey: "AIzaSyAtC5EHLtprD8f0uDr8Pb5-6DHuLch_ygk",
+  authDomain: "practica-10-ecosistemas.firebaseapp.com",
+  databaseURL: "https://practica-10-ecosistemas-default-rtdb.firebaseio.com",
+  projectId: "practica-10-ecosistemas",
+  storageBucket: "practica-10-ecosistemas.appspot.com",
+  messagingSenderId: "34040184014",
+  appId: "1:34040184014:web:ddd4d6ad066cff79d1649f",
+  measurementId: "G-LJ3FEBL1FB"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+</script>
+<script src="js/Tareas.js"></script>
+<script src="js/index.js"></script>
